@@ -1,0 +1,2 @@
+# You can use this file (or similar ones) to work on a report. 
+# Of course, you need to replace them with actual RMarkdown files eventually.
