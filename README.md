@@ -19,8 +19,11 @@ This research question aligns with the available IMDb datasets and focuses on wh
 
 The data sets that will be used are title.basics.tsv.gz and title.ratings.tsv.gz. These sets are obtained via the official site of IMDb and are programmatically downloaded in the R script. The final dataset contains 1.636.745 observations 
 
-- Include a table of variable description/operstionalisation. 
-
+# Dependent Variable
+Rating (averageRating)
+The dependent variable is the average IMDb user rating of a film or TV show.
+It is measured on a continuous scale from 1 to 10.
+This variable captures audience evaluation of the content.
 
 ## Method
 
