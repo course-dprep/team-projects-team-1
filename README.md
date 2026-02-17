@@ -19,26 +19,22 @@ This research question aligns with the available IMDb datasets and focuses on wh
 
 The data sets that will be used are title.basics.tsv.gz and title.ratings.tsv.gz. These sets are obtained via the official site of IMDb and are programmatically downloaded in the R script. The final dataset contains 1.636.745 observations 
 
-### Dependent Variable
-Rating (averageRating)
+### Dependent Variable - Rating (averageRating)
 The dependent variable is the average IMDb user rating of a film or TV show.
 It is measured on a continuous scale from 1 to 10.
 This variable captures audience evaluation of the content.
 
-### Independent Variable
-Runtime (runtimeMinutes)
+### Independent Variable - Runtime (runtimeMinutes)
 The independent variable is the runtime of a film or TV show episode.
 It is measured in minutes and treated as a continuous variable.
 Runtime represents the length of the content.
 
-### Control Variable
-Number of Votes (numVotes)
+### Control Variable- Number of Votes (numVotes)
 This control variable measures the total number of IMDb user votes.
 It is a count variable and captures the popularity and visibility of a title.
 Due to its skewed distribution, it may be log-transformed in the regression analysis.
 
-### Moderator
-Genre (genre)
+### Moderator - Genre (genre)
 Genre is included as a moderating variable to test whether the relationship between runtime and rating differs across content types.
 Genre is a categorical variable and is operationalised using dummy variables, with one genre serving as the reference category.
 
