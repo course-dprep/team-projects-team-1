@@ -10,10 +10,11 @@
 The influence of runtime on average IMDb rating
 
 ## Motivation
+Online ratings of films and TV movies play an important role in shaping consumer viewing decisions and influencing recommendation systems on streaming platforms. It is therefore relevant to examine which characteristics of audiovisual content are associated with higher audience ratings. One relevant characteristic is runtime. Research by Moon et al. (2009) shows that longer films tend to receive higher ratings on average, possibly because they are perceived by viewers as more valuable and narratively complex. While a longer runtime may contribute to greater narrative depth, prolonged exposure to audiovisual stimuli may, according to the Attention Restoration Theory, also lead to cognitive fatigue and reduced viewer attention (Baumgartner & Kühne, 2024). This could influence how viewers evaluate the quality of a film or television production. The relationship between runtime and ratings is likely to differ by genre, as different genres create distinct expectations regarding narrative pacing, story development, and ideal length.
 
-*Provide background/motivation for your project*
+The research question is therefore formulated as follows: “To what extent does runtime predict the average IMDb rating of films and TV movies, and to what extent is this relationship moderated by genre?”
 
-Research question: “To what extent does runtime predict the average IMDb rating of films and TV movies, and to what extent is this relationship moderated by genre?”
+This research question aligns with the available IMDb datasets and focuses on whether the length of a film or TV movie is related to perceived quality, as reflected in average IMDb ratings. In addition, the number of votes may affect the reliability of ratings. A small number of votes can produce more extreme or biased evaluations. Therefore, the number of votes is included as a control variable. The findings of this research are relevant for both consumers interpreting online ratings and platforms that rely on rating-based recommendation algorithms.
 
 ## Data
 
