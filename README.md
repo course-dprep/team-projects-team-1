@@ -7,7 +7,7 @@
 
 
 # Title of your Project
-*Describe the purpose of this project* 
+The influence of runtime on average IMDb rating
 
 ## Motivation
 
