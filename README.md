@@ -47,21 +47,7 @@ Linear regression analysis is the most suitable method to answer the research qu
 This repository contains the workflow for downloading, cleaning, merging, and analyzing IMDB data.
 
 ### Repository Structure
-team-projects-team-1/
-├── data/
-│   ├── download-data.R
-│   ├── imdb.ratings.tsv.gz
-│   ├── imdb.basics.tsv.gz
-│   └── imdb.rds              # merged dataset created during analysis
-│
-├── reporting/
-│   └── RMarkdown-file-ratings-basics-imdb.Rmd
-│
-├── src/
-│   └── (data cleaning and helper scripts)
-│
-├── README.md
-└── makefile
+<pre> ```bash team-projects-team-1/ ├── data/ │ ├── download-data.R │ ├── imdb.ratings.tsv.gz │ ├── imdb.basics.tsv.gz │ └── imdb.rds # merged dataset created during analysis │ ├── reporting/ │ └── RMarkdown-file-ratings-basics-imdb.Rmd │ ├── src/ │ └── (data cleaning and helper scripts) │ ├── README.md └── makefile ``` </pre>
 
 ## Dependencies
 To run this workflow, the following software and R packages are required:
