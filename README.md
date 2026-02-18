@@ -58,9 +58,11 @@ team-projects-team-1
 │
 
 ├── reporting
+
 │   └── Markdown-file-ratings-basics-imdb.Rmd   
 │
 ├── src
+
 │   └── ...                     
 │
 ├── README.md                    
