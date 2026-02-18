@@ -1,6 +1,21 @@
 # This script will be used to populate the \data directory
 # with all necessary raw data files.
 
+dir.create("data", showWarnings = FALSE)
+
+download.file(
+  "https://datasets.imdbws.com/title.ratings.tsv.gz",
+  destfile = "data/title.ratings.tsv.gz",
+  mode = "wb"
+)
+
+download.file(
+  "https://datasets.imdbws.com/title.basics.tsv.gz",
+  destfile = "data/title.basics.tsv.gz",
+  mode = "wb"
+)
+
+
 # Load required libraries
 library(readr)
 
