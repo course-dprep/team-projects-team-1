@@ -48,18 +48,17 @@ This repository contains the workflow for downloading, cleaning, merging, and an
 
 ### Repository Structure
 team-projects-team-1/
-│
 ├── data/
-│ ├── download-data.R
-│ ├── imdb.ratings.tsv.gz
-│ ├── imdb.basics.tsv.gz
-│ └── imdb.rds (merged dataset created during analysis)
+│   ├── download-data.R
+│   ├── imdb.ratings.tsv.gz
+│   ├── imdb.basics.tsv.gz
+│   └── imdb.rds              # merged dataset created during analysis
 │
 ├── reporting/
-│ └── RMarkdown file ratings basics imdb.Rmd
+│   └── RMarkdown-file-ratings-basics-imdb.Rmd
 │
 ├── src/
-│ └── (data cleaning and helper scripts)
+│   └── (data cleaning and helper scripts)
 │
 ├── README.md
 └── makefile
