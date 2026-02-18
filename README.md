@@ -49,19 +49,19 @@ This repository contains a complete data analysis pipeline for working with IMDb
 
 team-projects-team-1
 ├── data
-│   ├── download-data.R          # Script to download IMDb datasets
-│   ├── imdb.ratings.tsv.gz      # Raw ratings dataset
-│   ├── imdb.basics.tsv.gz       # Raw title metadata dataset
-│   └── imdb.rds                 # Cleaned and merged dataset
+│   ├── download-data.R          
+│   ├── imdb.ratings.tsv.gz      
+│   ├── imdb.basics.tsv.gz      
+│   └── imdb.rds                 
 │
 ├── reporting
-│   └── Markdown-file-ratings-basics-imdb.Rmd   # R Markdown analysis report
+│   └── Markdown-file-ratings-basics-imdb.Rmd   
 │
 ├── src
-│   └── ...                      # Data cleaning and transformation scripts
+│   └── ...                     
 │
-├── README.md                    # Project documentation
-└── makefile                     # Workflow automation
+├── README.md                    
+└── makefile                     
 
 
 ## Dependencies 
