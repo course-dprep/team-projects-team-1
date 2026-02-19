@@ -64,18 +64,10 @@ To ensure a consistent analytical sample:
 After cleaning and filtering, the final dataset contains 299,335 unique movie observations.
 
 ### Variables
-
-Dependent variable:
-averageRating — continuous IMDb user rating (1–10), representing audience evaluation.
-
-Independent variable:
-runtimeMinutes — movie runtime in minutes (continuous).
-
-Control variable:
-numVotes (log-transformed) — total number of user votes, capturing visibility and popularity and improving robustness against skewness.
-
-Moderator:
-genre (main genre, top 10 + Other) — categorical variable used to test whether the runtime–rating relationship differs across genres.
+- Dependent variable: averageRating — continuous IMDb user rating (1–10), representing audience evaluation.
+- Independent variable: runtimeMinutes — movie runtime in minutes (continuous).
+- Control variable: numVotes (log-transformed) — total number of user votes, capturing visibility and popularity and improving robustness against skewness.
+- Moderator: genre (main genre, top 10 + Other) — categorical variable used to test whether the runtime–rating relationship differs across genres.
 
 ### Repository Structure
 The repository is organized to support transparency and reproducibility:
